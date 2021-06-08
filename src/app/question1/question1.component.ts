@@ -21,4 +21,8 @@ export class Question1Component implements OnInit {
     this.router.navigateByUrl("/wrong")
   }
 
+  navigateWrong2(){
+    this.router.navigateByUrl("/question3")
+  }
+
 }
