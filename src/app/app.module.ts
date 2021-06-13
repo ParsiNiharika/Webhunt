@@ -7,6 +7,7 @@ import { Question2Component } from './question2/question2.component';
 import { WrongAnswerComponent } from './wrong-answer/wrong-answer.component';
 import { Question1Component } from './question1/question1.component';
 import { Question3Component } from './question3/question3.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { Question3Component } from './question3/question3.component';
     Question2Component,
     WrongAnswerComponent,
     Question1Component,
-    Question3Component
+    Question3Component,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
