@@ -17,4 +17,24 @@ export class Question2Component implements OnInit {
     this.router.navigateByUrl("/wrong")
   }
 
+  navigate(){
+    this.router.navigateByUrl("/z")
+  }
+
+  navigateA(){
+    this.router.navigateByUrl("/dr")
+  }
+
+  navigateB(){
+    this.router.navigateByUrl("/dt")
+  }
+
+  navigateC(){
+    this.router.navigateByUrl("/dy")
+  }
+
+  navigateBack(){
+    // this.router.navigate("")
+  }
+
 }
